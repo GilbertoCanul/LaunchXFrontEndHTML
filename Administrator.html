@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteles</title>
+    <style>
+
+        @font-face {
+            font-family: 'Nunito', serif;
+            src: url();
+        }
+
+        .user-style
+        {
+            font-family: 'Nunito', serif;
+            margin-right: 15px;
+            font-size: 30px;
+            text-align: right;
+        }
+
+        .custom-style
+        {
+            font-family: 'Nunito', serif;
+            margin-left: 15px;
+            font-size: 40px;
+        }
+    
+    #container {height: 100%; width:100%; font-size: 0;}
+    #left, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+    #left {width: 40%;}
+    #right {width: 30%;}
+
+    </style>
+</head>
+<body>
+
+    <div id="header" style="background-color: #ffcdb0;">
+
+        <img src="Images/Logo.png" alt="Logo de Pastelería Dorantes" width="300px">
+
+        <div id="left">
+
+            <h1 class="custom-style">Inventario</h1>
+
+        </div>
+
+        <div id="right">
+
+            <h1 class="user-style">Admin</h1>
+
+        </div>
+
+    </div>
+
+    <div id="cake-div">
+
+        <h2>Sabores</h2>
+        <p>Chocolate | Cantidad disponible: 15 kg</p>
+        <p>Fresa | Cantidad disponible: 10 kg</p>
+
+    </div>
+
+    <hr>
+
+    <div id="decoration-div">
+
+        <h2>Adornos</h2>
+        <p>Fondant | Cantidad disponible: 18 kg</p>
+        <p>Texto | Obleas disponibles: 120</p>
+
+    </div>
+
+    <hr>
+
+    <div id="orders">
+
+        <table class="default">
+
+            <tr>
+          
+              <th>ID de pedido</th>
+          
+              <th>Descripción</th>
+          
+              <th>Cliente</th>
+
+              <th>Estatus</th>
+          
+            </tr>
+          
+            <tr>
+          
+              <td>263548</td>
+          
+              <td>Pastel de chocolate</td>
+          
+              <td>Daniela Ortiz</td>
+
+              <td>En espera</td>
+          
+            </tr>
+          
+            <tr>
+          
+              <td>356894</td>
+          
+              <td>Pastel de fresa</td>
+          
+              <td>Miguel Santos</td>
+
+              <td>En preparación</td>
+          
+            </tr>
+          
+            <tr>
+          
+              <td>361240</td>
+          
+              <td>Pastel de vainilla</td>
+          
+              <td>Vianey Pérez</td>
+
+              <td>En proceso de entrega</td>
+          
+            </tr>
+          
+          </table>
+
+    </div>
+
+    <input type="button" value="Atender pedido"/>
+
+    <hr>
+
+    <div id="info-div">
+
+        <h4>Pastelería Dorantes</h4>
+        <p>Teléfono: 9936484214</p>
+        <p>Dirección: Enrique Segoviano</p>
+        <p>Horarios de atención: lunes a sábado de 9 a. m. a 9 p. m.</p>
+
+    </div>
+
+</body>
+</html>
